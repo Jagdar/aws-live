@@ -10,15 +10,15 @@ bucket = custombucket
 region = customregion
 
 db_conn = connections.Connection(
-    host=customhost,
+    host=admin.clbpileearpk.ap-south-1.rds.amazonaws.com,
     port=3306,
-    user=customuser,
-    password=custompass,
-    db=customdb
+    user=admin,
+    password=password123,
+    db=admin
 
 )
 output = {}
-table = 'employee'
+table = 'admin'
 
 
 @app.route("/", methods=['GET', 'POST'])
