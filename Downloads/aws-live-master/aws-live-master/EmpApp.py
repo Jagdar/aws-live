@@ -10,11 +10,11 @@ bucket = custombucket
 region = customregion
 
 db_conn = connections.Connection(
-    host=admin.clbpileearpk.ap-south-1.rds.amazonaws.com,
+    host=nappdb.clbpileearpk.ap-south-1.rds.amazonaws.com,
     port=3306,
-    user=admin,
+    user=nappdb,
     password=password123,
-    db=admin
+    db=nappdb
 
 )
 output = {}
